@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4d2ddcbd224edaa52585397261a0ba76 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4d2ddcbd224edaa52585397261a0ba76" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4d2ddcbd224edaa52585397261a0ba76 = L.map(
+                "map_4d2ddcbd224edaa52585397261a0ba76",
+                {
+                    center: [20.0, 78.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a61a6c0e8e8fdaddf334fd73977b5b81 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a61a6c0e8e8fdaddf334fd73977b5b81.addTo(map_4d2ddcbd224edaa52585397261a0ba76);
+        
+    
+            var marker_f37d3b087704a8a7e6def55f3f7119aa = L.marker(
+                [12.9716, 77.5946],
+                {}
+            ).addTo(map_4d2ddcbd224edaa52585397261a0ba76);
+        
+    
+        var popup_cf916f0d0d61026451454d470f343928 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37769bab66e6c3d0963fa18fa24f8222 = $(`<div id="html_37769bab66e6c3d0963fa18fa24f8222" style="width: 100.0%; height: 100.0%;">Bengaluru</div>`)[0];
+                popup_cf916f0d0d61026451454d470f343928.setContent(html_37769bab66e6c3d0963fa18fa24f8222);
+            
+        
+
+        marker_f37d3b087704a8a7e6def55f3f7119aa.bindPopup(popup_cf916f0d0d61026451454d470f343928)
+        ;
+
+        
+    
+    
+            var marker_a8adce3d6f3415c2b883adc9773e85ff = L.marker(
+                [19.076, 72.8777],
+                {}
+            ).addTo(map_4d2ddcbd224edaa52585397261a0ba76);
+        
+    
+        var popup_a6d85a52e7e8660cd12c9a5fc1c0da0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf60da88da8eb5369de025e1eb4ebeae = $(`<div id="html_bf60da88da8eb5369de025e1eb4ebeae" style="width: 100.0%; height: 100.0%;">Mumbai</div>`)[0];
+                popup_a6d85a52e7e8660cd12c9a5fc1c0da0c.setContent(html_bf60da88da8eb5369de025e1eb4ebeae);
+            
+        
+
+        marker_a8adce3d6f3415c2b883adc9773e85ff.bindPopup(popup_a6d85a52e7e8660cd12c9a5fc1c0da0c)
+        ;
+
+        
+    
+    
+            var marker_c5bb0a8d9e940f95db80719ac51fbaed = L.marker(
+                [23.0222, 72.6141],
+                {}
+            ).addTo(map_4d2ddcbd224edaa52585397261a0ba76);
+        
+    
+        var popup_17a24734a031d7605fd6646a7fcfbb75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45a90df5cbe80c3797f7411538705712 = $(`<div id="html_45a90df5cbe80c3797f7411538705712" style="width: 100.0%; height: 100.0%;">Gandhinagar</div>`)[0];
+                popup_17a24734a031d7605fd6646a7fcfbb75.setContent(html_45a90df5cbe80c3797f7411538705712);
+            
+        
+
+        marker_c5bb0a8d9e940f95db80719ac51fbaed.bindPopup(popup_17a24734a031d7605fd6646a7fcfbb75)
+        ;
+
+        
+    
+    
+            var marker_5f9b75394ec3ee130153722b41e07117 = L.marker(
+                [30.7333, 76.7794],
+                {}
+            ).addTo(map_4d2ddcbd224edaa52585397261a0ba76);
+        
+    
+        var popup_d3ef4b9b43a10f2837710c0642227cf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e061a392cd2bfb9c9a49901c8e247dd = $(`<div id="html_3e061a392cd2bfb9c9a49901c8e247dd" style="width: 100.0%; height: 100.0%;">Chandigarh</div>`)[0];
+                popup_d3ef4b9b43a10f2837710c0642227cf2.setContent(html_3e061a392cd2bfb9c9a49901c8e247dd);
+            
+        
+
+        marker_5f9b75394ec3ee130153722b41e07117.bindPopup(popup_d3ef4b9b43a10f2837710c0642227cf2)
+        ;
+
+        
+    
+</script>
+</html>
